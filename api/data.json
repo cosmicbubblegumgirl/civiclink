@@ -1,0 +1,96 @@
+{
+  "product": "CivicLink",
+  "category": "Resident Service Hub",
+  "backend": "GitHub Pages static JSON endpoint plus localStorage write simulation.",
+  "generatedBy": "Simone Govender",
+  "metrics": [
+    {
+      "label": "Department route",
+      "value": "86%",
+      "delta": "+12%"
+    },
+    {
+      "label": "Active records",
+      "value": "7",
+      "delta": "+3"
+    },
+    {
+      "label": "Workflow steps",
+      "value": "4",
+      "delta": "mapped"
+    },
+    {
+      "label": "Local saves",
+      "value": "on",
+      "delta": "browser"
+    }
+  ],
+  "records": [
+    {
+      "id": "civiclink-1",
+      "title": "Streetlight outage",
+      "status": "Issue finder",
+      "owner": "Report issue",
+      "score": 92,
+      "trend": "High attention",
+      "updated": "8 min ago"
+    },
+    {
+      "id": "civiclink-2",
+      "title": "Missed collection",
+      "status": "Accessible forms",
+      "owner": "Status tracker",
+      "score": 80,
+      "trend": "In progress",
+      "updated": "19 min ago"
+    },
+    {
+      "id": "civiclink-3",
+      "title": "Pothole photo accepted",
+      "status": "Department routing",
+      "owner": "Department desk",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "30 min ago"
+    }
+  ],
+  "workflow": [
+    {
+      "step": 1,
+      "title": "Issue finder",
+      "detail": "CivicLink uses issue finder to support report issue decisions for residents and public service teams."
+    },
+    {
+      "step": 2,
+      "title": "Accessible forms",
+      "detail": "CivicLink uses accessible forms to support status tracker decisions for residents and public service teams."
+    },
+    {
+      "step": 3,
+      "title": "Department routing",
+      "detail": "CivicLink uses department routing to support department desk decisions for residents and public service teams."
+    },
+    {
+      "step": 4,
+      "title": "Plain-language status",
+      "detail": "CivicLink uses plain-language status to support resident updates decisions for residents and public service teams."
+    }
+  ],
+  "activity": [
+    {
+      "title": "Reduce confusing civic forms",
+      "time": "1h",
+      "kind": "Issue finder"
+    },
+    {
+      "title": "Route requests to the right team",
+      "time": "2h",
+      "kind": "Accessible forms"
+    },
+    {
+      "title": "Use plain language for every status",
+      "time": "3h",
+      "kind": "Department routing"
+    }
+  ]
+}
